@@ -1,0 +1,49 @@
+#top-10 {
+  display: flex;
+}
+#top-10 .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+#top-10 .products .product {
+  display: flex;
+}
+#top-10 .products .product_2th {
+  display: flex;
+}
+#top-10 .products .product_image-icon {
+  display: flex;
+  position: relative;
+  bottom: 10%;
+  padding: 20px;
+  justify-content: space-evenly;
+  padding: 0px 71.7px 0px 0px;
+}
+#top-10 .products .product_image-icon-img {
+  border: none;
+  border-radius: 9px;
+}
+#top-10 .products .product_button {
+  width: 50%;
+  height: 50px;
+  border: 1px solid blue;
+  border-radius: 45px;
+}
+.aside_image {
+  background-image: url(../assets/unsplash_Uxqlfigh6oE.png);
+  background-position: 25.5px;
+  width: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+.aside_image-text {
+  color: white;
+}
+
+span {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

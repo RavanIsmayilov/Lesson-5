@@ -1,0 +1,95 @@
+#top-10{
+    display: flex;
+
+    .title{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+        
+
+
+    }
+    .products{
+
+
+        .product{
+
+            display: flex;
+
+            &_2th{
+
+                display: flex;
+            }
+
+
+            &_image{
+
+
+
+            
+            &-icon{
+                display: flex;
+                position: relative;
+                bottom: 10%;
+                padding: 20px;
+                justify-content: space-evenly;
+                padding: 0px 71.7px 0px 0px;
+
+                &-img{
+
+                    border: none;
+                    border-radius: 9px;
+
+
+
+                }
+            
+            }
+
+
+            }
+
+            &_button{
+                width: 50%;
+                height: 50px;
+                border: 1px solid blue;
+                border-radius: 45px;
+
+
+            }
+
+            &_image2{
+
+
+
+            }
+
+        }
+    }
+}
+.aside_image{
+
+    background-image: url(../assets/unsplash_Uxqlfigh6oE.png);
+    background-position: 25.5px;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+
+   
+    &-text{
+        color: white;
+
+       
+    }
+
+
+
+}
+
+span{
+    color: blue;
+}
+
